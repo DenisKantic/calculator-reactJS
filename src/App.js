@@ -12,9 +12,9 @@ function App() {
       </form>
 
       <div className="keypad">
-        <button className="highlight" >Clear</button>
-        <button className="highlight" >C</button>
-        <button className="highlight" >&divide;</button>
+        <button className="highlight" id="clear">Clear</button>
+        <button className="highlight" id="backspace">C</button>
+        <button name="/" className="highlight" >&divide;</button>
         <button name="7" >7</button>
         <button name="8" >8</button>
         <button name="9" >9</button>
@@ -29,7 +29,7 @@ function App() {
         <button className="highlight" name="+" >+</button>
         <button name="0" >0</button>
         <button className="highlight" name="." >.</button>
-        <button className="highlight" name="=" >=</button>
+        <button className="highlight" id="result" name="=" >=</button>
       </div>
     </div>
   );
