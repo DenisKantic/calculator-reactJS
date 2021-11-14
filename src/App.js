@@ -1,8 +1,15 @@
 import './App.css';
+import React, { useState } from 'react';
 
 function App() {
+
+
+  const [result, setResult] = useState("");
   return (
     <div className="container">
+      <form>
+        <input type="text" value={result}/>
+      </form>
 
       <div className="keypad">
         <button className="highlight" >Clear</button>
